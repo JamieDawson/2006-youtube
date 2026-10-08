@@ -70,3 +70,28 @@ account-links a {
   font-size: 11px;
   cursor: pointer;
 }
+
+/*Navigation CSS*/
+
+.main-nav {
+  display: flex;
+  gap: 3px;
+  border-bottom: 1px solid #999999;
+}
+
+.main-nav a {
+  padding: 6px 14px;
+  background-color: #eeeeee;
+  color: #003399;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: bold;
+
+  border: 1px solid #999999;
+  border-bottom: none;
+}
+
+.main-nav a.active {
+  background-color: white;
+  color: #333333;
+}
