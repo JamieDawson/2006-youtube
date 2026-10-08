@@ -95,3 +95,20 @@ account-links a {
   background-color: white;
   color: #333333;
 }
+
+/*Secondary Navbar*/
+
+.secondary-nav {
+  text-align: center;
+  font-size: 11px;
+  padding: 6px 0;
+}
+
+.secondary-nav a {
+  color: #003399;
+  text-decoration: none;
+}
+
+.secondary-nav span {
+  margin: 0 5px;
+}
