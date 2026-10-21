@@ -112,3 +112,22 @@ account-links a {
 .secondary-nav span {
   margin: 0 5px;
 }
+
+/*Layout for MainLayout*/
+/* 445 + 240 + 15 = 700*/
+.main-layout {
+  display: grid;
+  grid-template-columns: 445px 240px;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.main-content {
+  background-color: #eeeeee;
+  min-width: 0;
+}
+
+.sidebar {
+  background-color: #dddddd;
+  min-width: 0;
+}
