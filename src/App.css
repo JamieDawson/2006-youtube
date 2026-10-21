@@ -131,3 +131,40 @@ account-links a {
   background-color: #dddddd;
   min-width: 0;
 }
+
+/*DirectorVideos css*/
+
+.director-video-list {
+  display: flex;
+  gap: 20px;
+}
+
+.director-video-card {
+  width: 90px;
+  font-size: 11px;
+}
+
+.direcctor-video-card img {
+  display: block;
+  width: 75px;
+  height: 55px;
+  object-fit: cover;
+  margin-bottom: 5px;
+}
+
+.director-video-card a {
+  display: block;
+  color: #003399;
+  font-weight: bold;
+}
+
+.director-video-card p {
+  margin: 2px 0;
+}
+
+.director-videos h2 {
+  font-size: 12px;
+  font-weight: normal;
+  color: #666666;
+  margin: 0 0 8px;
+}
