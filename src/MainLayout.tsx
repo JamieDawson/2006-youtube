@@ -1,10 +1,12 @@
 import DirectorVideos from "./DirectorVideos";
+import FeaturedVideos from "./FeaturedVideos";
 
 const MainLayout = () => {
   return (
     <div className="main-layout">
       <main className="main-content">
         <DirectorVideos />
+        <FeaturedVideos />
       </main>
 
       <aside className="sidebar">
