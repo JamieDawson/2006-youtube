@@ -1,5 +1,6 @@
 import DirectorVideos from "./DirectorVideos";
 import FeaturedVideos from "./FeaturedVideos";
+import Sidebar from "./Sidebar";
 
 const MainLayout = () => {
   return (
@@ -9,9 +10,7 @@ const MainLayout = () => {
         <FeaturedVideos />
       </main>
 
-      <aside className="sidebar">
-        <h2>Broadcast Yourself</h2>
-      </aside>
+      <Sidebar />
     </div>
   );
 };
